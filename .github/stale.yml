@@ -1,0 +1,29 @@
+# 配置GitHub的Stale bot，自动处理不活跃的issue和PR
+# 更多信息: https://github.com/probot/stale
+
+# 标记issue为过时前的不活跃天数
+daysUntilStale: 60
+# 关闭已标记为过时的issue前的天数
+daysUntilClose: 7
+# 不会被标记为过时的issue标签
+exemptLabels:
+  - pinned
+  - security
+  - bug
+  - enhancement
+# 标记issue为过时时添加的标签
+staleLabel: wontfix
+# 标记issue为过时时的评论
+markComment: >
+  此issue因长时间不活跃而被自动标记为过时。如果没有新的活动，它将在7天后被关闭。
+  如果您认为这个issue仍然相关，请发表评论以保持它的活跃状态。
+  感谢您对项目的贡献！
+# 关闭issue时的评论
+closeComment: >
+  此issue已自动关闭，因为它被标记为过时后没有新的活动。
+  如果您认为这个issue仍然相关，请随时重新打开它或创建一个新的issue。
+  感谢您对项目的贡献！
+# 限制bot处理的issue数量
+limitPerRun: 30
+# 只处理issue，不处理PR
+only: issues

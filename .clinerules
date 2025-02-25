@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "name": "use-pnpm",
+      "description": "确保使用 pnpm 而不是 npm",
+      "pattern": "^npm (install|i|add|remove|rm|uninstall|un)\\b",
+      "message": "请使用 pnpm 而不是 npm。例如：'pnpm install' 而不是 'npm install'",
+      "severity": "error"
+    }
+  ]
+}

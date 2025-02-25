@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 项目讨论
+    url: https://github.com/yourusername/primer-icons-mcp/discussions
+    about: 请在这里提问、分享想法或获取帮助
+  - name: 文档
+    url: https://github.com/yourusername/primer-icons-mcp/blob/main/README.md
+    about: 在提问之前，请先查看我们的文档

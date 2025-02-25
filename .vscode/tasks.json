@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$tsc"],
+      "label": "npm: build",
+      "detail": "构建MCP服务"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "group": "none",
+      "problemMatcher": [],
+      "label": "npm: start",
+      "detail": "启动MCP服务"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "group": "none",
+      "problemMatcher": ["$tsc-watch"],
+      "label": "npm: dev",
+      "detail": "以监视模式构建MCP服务",
+      "isBackground": true
+    },
+    {
+      "type": "shell",
+      "command": "node",
+      "args": ["test.js"],
+      "group": "test",
+      "problemMatcher": [],
+      "label": "运行测试脚本",
+      "detail": "运行测试脚本以测试MCP服务"
+    }
+  ]
+}

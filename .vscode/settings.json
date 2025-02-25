@@ -1,0 +1,14 @@
+{
+  "mcp.enableExperimentalFeatures": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}

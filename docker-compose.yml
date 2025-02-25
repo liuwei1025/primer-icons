@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  primer-icons-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: primer-icons-mcp
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    volumes:
+      # 如果需要持久化数据，可以添加卷
+      # - ./data:/app/data
+    # 如果需要暴露端口，可以取消注释以下行
+    # ports:
+    #   - "3000:3000"

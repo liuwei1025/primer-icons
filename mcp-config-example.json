@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "primer-icons": {
+      "command": "node",
+      "args": ["/path/to/primer-icons-mcp/dist/server.js"],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
