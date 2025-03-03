@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@modelcontextprotocol/sdk':
-        specifier: ^1.6.0
-        version: 1.6.0
+        specifier: ^1.6.1
+        version: 1.6.1
       axios:
         specifier: ^1.7.9
         version: 1.7.9
@@ -27,8 +27,8 @@ importers:
 
 packages:
 
-  '@modelcontextprotocol/sdk@1.6.0':
-    resolution: {integrity: sha512-585s8g+jzuGBomzgzDeP5l8gEyiSs+KhoAHbA2ZZ24Zgm83IZsyCLl/fmWhPHbfYsuLG8NE6SWGZA5ZBql8jSw==}
+  '@modelcontextprotocol/sdk@1.6.1':
+    resolution: {integrity: sha512-oxzMzYCkZHMntzuyerehK3fV6A2Kwh5BD6CGEJSVDU2QNEhfLOptf2X7esQgaHZXHZY0oHmMsOtIDLP71UJXgA==}
     engines: {node: '>=18'}
 
   '@types/node@20.17.19':
@@ -497,7 +497,7 @@ packages:
 
 snapshots:
 
-  '@modelcontextprotocol/sdk@1.6.0':
+  '@modelcontextprotocol/sdk@1.6.1':
     dependencies:
       content-type: 1.0.5
       cors: 2.8.5
@@ -918,7 +918,7 @@ snapshots:
 
   send@1.1.0:
     dependencies:
-      debug: 4.3.6
+      debug: 4.4.0
       destroy: 1.2.0
       encodeurl: 2.0.0
       escape-html: 1.0.3
